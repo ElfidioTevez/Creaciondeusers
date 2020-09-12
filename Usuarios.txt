@@ -1,0 +1,12 @@
+CREAR USUARIOS
+adduser Elfidio
+adduser Elenilson
+adduser Raquel
+CREAR GRUPO
+groupadd Home
+AGREGAR MIEMBROS AL GRUPO
+usermod -g Home Elfidio
+usermod -g Home Elenilson
+usermod -g Home Raquel
+RENOMBRAR GRUPO
+groupmod -n Home Family
